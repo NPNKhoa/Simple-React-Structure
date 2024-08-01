@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Phiên bản ECMAScript hiện đại
+    "module": "ESNext", // Sử dụng mô-đun ES6
+    "jsx": "react-jsx", // Hỗ trợ JSX trong React
+    "moduleResolution": "node", // Giải quyết mô-đun theo cách của Node.js
+    "baseUrl": "./src", // Đường dẫn cơ sở cho các mô-đun
+    "paths": {
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@assets/*": ["assets/*"],
+      "@pages/*": ["pages/*"],
+      "@layouts/*": ["layouts/*"]
+    }
+  },
+  "include": ["src/**/*"], // Bao gồm tất cả các tệp trong thư mục src
+  "exclude": ["node_modules", "dist"] // Loại trừ thư mục không cần thiết
+}
