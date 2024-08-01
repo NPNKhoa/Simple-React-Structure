@@ -1,7 +1,5 @@
-import ExamplePage from '@pages/ExamplePage';
-import LoadingPage from '@pages/LoadingPage';
-import NotFoundPage from '@pages/NotFoundPage';
-import { ExampleLayout } from '@layouts';
+import { ExamplePage, LoadingPage, NotFoundPage } from '../../pages';
+import { ExampleLayout } from '../../layouts';
 import { Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 

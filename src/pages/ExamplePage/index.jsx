@@ -1,4 +1,4 @@
-import ExampleComponent from '@components/ExampleComponent';
+import { ExampleComponent } from '../../components';
 
 const ExamplePage = () => {
   return (
